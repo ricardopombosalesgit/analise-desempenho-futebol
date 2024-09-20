@@ -5,7 +5,7 @@ import os
 # Função para executar um script Python específico
 def executar_script(script_name):
     # Caminho da pasta onde os scripts estão armazenados (ajuste conforme necessário)
-    scripts_dir = "main/scripts"  # Substitua com o nome da pasta correta ou deixe vazio se os arquivos estão no mesmo diretório
+    scripts_dir = "analise-desempenho-futebol/main/scripts"  # Substitua com o nome da pasta correta ou deixe vazio se os arquivos estão no mesmo diretório
     script_path = os.path.join(scripts_dir, script_name)  # Junta o caminho da pasta com o nome do arquivo
     
     # Converte para o caminho absoluto para maior confiabilidade
@@ -36,7 +36,7 @@ def listar_arquivos(diretorio):
 st.title('Execução de Scripts por Posição')
 
 # Lista os arquivos na pasta 'scripts' para verificação
-listar_arquivos("main/scripts")  # Substitua com o caminho correto se necessário
+listar_arquivos("analise-desempenho-futebol/main/scripts")  # Substitua com o caminho correto se necessário
 
 # Botões para cada posição
 if st.button('Goleiros'):
