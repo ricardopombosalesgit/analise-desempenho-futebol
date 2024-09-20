@@ -4,7 +4,6 @@ numpy
 matplotlib
 seaborn
 fpdf
-base64
 os
 io
 xlsxwriter
