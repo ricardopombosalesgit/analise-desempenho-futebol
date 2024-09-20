@@ -1,3 +1,10 @@
 streamlit
 pandas
 numpy
+matplotlib.pyplot
+seaborn
+fpdf
+base64
+os
+io
+xlsxwriter
