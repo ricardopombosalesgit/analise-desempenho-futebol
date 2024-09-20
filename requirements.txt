@@ -2,7 +2,6 @@ streamlit
 pandas
 numpy
 matplotlib
-pyplot
 seaborn
 fpdf
 base64
