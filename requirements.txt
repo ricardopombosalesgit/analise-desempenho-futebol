@@ -10,3 +10,4 @@ python-docx
 python-pptx
 openpyxl
 kaleido
+datetime
